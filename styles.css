@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: rgb(168, 168, 168);
+  background-color: rgb(207, 207, 207);
   font-family: "Hina Mincho", serif;
 }
 body {
@@ -19,18 +19,18 @@ body {
 }
 
 .header-text {
-  color: rgb(224, 16, 16);
+  color: rgb(202, 5, 5);
   font-size: 8rem;
   font-weight: 200;
-  text-shadow: 2px 1px rgb(255, 255, 255);
+  text-shadow: 2px 1px rgb(0, 0, 0);
 
-  font-family: "Style Script", cursive;
+  font-family: "Kaisei HarunoUmi", serif;
 }
 
 .sub-text {
-  text-shadow: 2px 1px rgb(211, 211, 211);
-  font-size: 5rem;
-  color: rgb(58, 37, 37);
+  text-shadow: 2px 1px rgb(255, 255, 255);
+  font-size: 4.5rem;
+  color: rgb(43, 43, 43);
   margin-top: 3rem;
   outline: 8px;
   outline-color: rgb(0, 0, 0);
@@ -43,16 +43,17 @@ body {
 }
 
 .nav-wrapper {
-  font-size: 3rem;
-  color: rgb(48, 48, 48);
-  text-shadow: 1px 1px rgb(206, 21, 21);
+  font-size: 2rem;
+  color: rgb(179, 0, 0);
+  text-shadow: 1px 1px rgb(177, 177, 177);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 90%;
+  background-color: rgb(190, 190, 190);
 }
 .nav-link {
-  transition: 0.9s;
+  transition: 0.3s;
   text-decoration: none;
   color: inherit;
   margin: 2rem 0;
@@ -64,16 +65,18 @@ body {
 }
 
 .image-wrapper img {
-  height: 18rem;
+  height: 25rem;
   width: auto;
-  margin: 0.5rem;
+  margin: 2rem;
 }
+
 .image-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-around;
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
+
 .bkg-img {
   position: fixed;
   height: auto;
@@ -86,4 +89,37 @@ body {
   right: 0;
 
   z-index: -1;
+}
+.photo-text {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  text-shadow: 1px 1px rgb(255, 255, 255);
+  color: black;
+}
+.image-wrapper2 img {
+  height: 35rem;
+  width: auto;
+  margin: 1.5rem;
+}
+
+.image-wrapper2 {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-self: center;
+  padding: 2rem 0;
+}
+.image-wrapper3 img {
+  height: 50rem;
+  width: auto;
+  margin: 1.5rem;
+}
+
+.image-wrapper3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  padding: 2rem 0;
 }
