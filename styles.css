@@ -43,7 +43,7 @@ body {
 }
 
 .nav-wrapper {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: 600;
   color: rgb(179, 0, 0);
   text-shadow: 1px 1px rgb(0, 0, 0);
@@ -125,6 +125,13 @@ body {
   padding: 2rem 0;
 }
 
+.image-wrapper3 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .image-wrapper4 img {
   height: 25rem;
   width: auto;
@@ -137,4 +144,13 @@ body {
   justify-content: center;
   align-self: center;
   padding: 2rem 0;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer p {
+  padding: 0.2rem 1rem;
 }
