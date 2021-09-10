@@ -51,7 +51,7 @@ body {
   justify-content: space-around;
   align-items: center;
   width: 120%;
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(238, 238, 238);
 }
 .nav-link {
   transition: 0.3s;
